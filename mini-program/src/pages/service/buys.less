@@ -1,0 +1,30 @@
+@import "../../variable.less";
+
+:host {
+  background-color: @page-background;
+}
+
+.i-search {
+  .head {
+    font-size: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    button {
+      margin: 0;
+    }
+  }
+  background: #fff;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 0 20px;
+  z-index: 2;
+}
+
+.page {
+  padding-top: 130px;
+}

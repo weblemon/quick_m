@@ -1,0 +1,58 @@
+@import "../../variable.less";
+.house-list-item {
+  &.bordered {
+    border-bottom: 1px solid @border-color;
+  }
+  .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .title {
+          color: @text-color;
+          font-size: 34px;
+          font-weight: bolder;
+      }
+      button {
+        font-size: 24px;
+        margin-left: 20px;
+      }
+      .collcetion {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        margin-left: 10px;
+      }
+  }
+  .main {
+      font-size: 28px;
+      color: @text-secondary-color;
+      margin: 20px 0;
+      .sup {
+        vertical-align: super;
+        font-size: 0.8em;
+      }
+  }
+  .footer{
+    .price {
+      font-size: 40px;
+      font-weight: bolder;
+      color: @primary;
+      .unit {
+        font-weight: lighter;
+        font-size: 28px;
+      }
+    }
+    .time {
+      color: @text-secondary-color;
+      font-size: 28px;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  background: #fff;
+}

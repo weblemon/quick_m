@@ -1,0 +1,32 @@
+@import "../../variable.less";
+.list-cell {
+  height: 100px;
+  font-size: 24px;
+  padding: 0 30px;
+  background-color: #fff;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &.bordered {
+    border-bottom: 1px solid @border-color;
+  }
+  .label {
+      color: @text-color;
+  }
+  .value {
+    flex: 1;
+    text-align: right;
+    color: @text-secondary-color;
+  }
+  .arrow {
+    width: 14px;
+    height: 22px;
+    margin-left: 20px;
+  }
+}
+
+.list-cell-hover {
+  background-color: lighten(@page-background, 1%);
+}

@@ -1,0 +1,97 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "mfx",
+	"description": "快马好房",
+	"appid": "wx8506a4bc4e38c2cb",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.8.3",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/mine/qrcode",
+					"pathName": "pages/mine/qrcode",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mine/house/list/house",
+					"pathName": "pages/mine/house/list/house",
+					"query": "auditStatus=0&title=在售房源",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/mine/house/list/house",
+					"pathName": "pages/mine/house/list/house",
+					"query": "auditStatus=0&title=在售房源",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/promoter/index",
+					"pathName": "pages/promoter/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/house/detail",
+					"pathName": "pages/house/detail",
+					"query": "id=156666044308489",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mine/active",
+					"pathName": "pages/mine/active",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mine/index",
+					"pathName": "pages/mine/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}

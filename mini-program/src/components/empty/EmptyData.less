@@ -1,0 +1,29 @@
+@import "../../variable.less";
+.empty-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  image {
+    width: 200px;
+    height: 200px;
+  }
+  text {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    color: @text-secondary-color;
+  }
+  button {
+    margin-top: 20px;
+    background-color: @primary;
+    color: #ffffff;
+    &::after {
+      border: none;
+    }
+    &:active {
+      background-color: lighthen(@primary, 10%);
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import "../../variable.less";
+
+
+.list-buy-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #fff;
+  border-bottom-color: @border-color;
+  border-bottom-style: solid;
+  .info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    .username {
+      flex: 1;
+      color: @text-color;
+      font-size: 34px;
+      padding: 0 20px;
+    }
+  }
+  .desc {
+    padding: 20px 0;
+    font-size: 28px;
+    line-height: 34px;
+    color: @text-secondary-color;
+  }
+}

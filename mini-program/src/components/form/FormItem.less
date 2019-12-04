@@ -1,0 +1,24 @@
+@import "../../variable.less";
+.form-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 80px;
+  border-bottom: 1px solid @border-color;
+  padding: 0 20px;
+  .label {
+    font-size: 28px;
+    color: @text-color;
+    line-height: 80px;
+    align-self: flex-start;
+  }
+  .content {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: @text-secondary-color;
+    font-size: 28px;
+  }
+}

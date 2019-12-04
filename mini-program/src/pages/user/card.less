@@ -1,0 +1,63 @@
+@import "../../variable.less";
+
+:host {
+  background-color: @page-background;
+}
+
+.page {
+  .header {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid @border-color;
+    background: #fff;
+    flex-direction: row;
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #ddd;
+      overflow: hidden;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+      .username {
+        font-size: 30px;
+        font-weight: bolder;
+        color: @text-color;
+      }
+      .nickname {
+        font-size: 28px;
+        color: @text-secondary-color;
+      }
+
+    }
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    margin-bottom: 20px;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    button {
+      height: 56px;
+      border: none;
+      background: none;
+      color:  @primary;
+      font-weight: bolder;
+      &::after{
+        border: none;
+      }
+    }
+    view {
+      flex: 1;
+    }
+  }
+}
+pane {
+  border-bottom: 2px solid @border-color;
+  display: block;
+}

@@ -1,0 +1,30 @@
+@import "../../variable.less";
+
+.house-search-group {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: bolder;
+    color: @text-color;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    button {
+      width: 30%;
+      margin: 10px;
+      border: 1px solid transparent;
+      &.active {
+        border: 1px solid @primary;
+      }
+      &::after {
+        border: none;
+      }
+    }
+  }
+
+  margin: 20px 0;
+}

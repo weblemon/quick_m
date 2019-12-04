@@ -1,0 +1,87 @@
+@import "../../variable.less";
+:host {
+  background: @page-background;
+}
+.user-cell {
+  .top {
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: @page-background;
+    }
+    .info {
+      flex: 1;
+      .title {
+        font-weight: bolder;
+        font-size: 32px;
+        color: @text-color;
+        margin-bottom: 10px;
+      }
+      .desc {
+        font-size: 26px;
+        color: @text-secondary-color;
+      }
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    .row {
+      display: flex;
+      flex-direction: row;
+      font-size: 26px;
+      margin: 5px 0;
+      .label {
+        width: 100px;
+        color: @text-secondary-color;
+      }
+      .value {
+        color: @text-color;
+      }
+    }
+  }
+  background: #fff;
+  padding: 20px;
+}
+.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  button {
+    &:after {
+      border: none;
+    }
+    display: inline-block;
+    line-height: normal;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .item {
+    font-size: 26px;
+    color: @text-secondary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .iconfont {
+      font-size: 35px;
+      color: @text-color;
+      margin-bottom: 10px;
+    }
+  }
+  background-color: #fff;
+  padding:20px;
+  margin: 20px 0;
+}
+list {
+  display: block;
+  margin-top: 20px;
+}

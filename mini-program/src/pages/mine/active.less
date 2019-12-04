@@ -1,0 +1,31 @@
+@import "../../variable.less";
+
+:host {
+  background-color: @page-background;
+}
+
+
+.button {
+  margin: 50px 20px;
+}
+
+.page-section {
+  .flex();
+  height: 80px;
+  font-size: 32px;
+  padding: 0 30px;
+  align-items: center;
+  text {
+    width: 190px;
+  }
+  .picker {
+    color: @text-secondary-color;
+    .flex();
+    align-items: center;
+    image {
+      width: 14px;
+      height: 8px;
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import "../../variable.less";
+:host {
+  display: block;
+  width: 100%;
+}
+.search {
+
+  height: 54px;
+  border-radius: 4px;
+  background: @search-background;
+  margin: 10px 0;
+  color: #b3b3b3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  icon {
+    margin: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  input {
+    width: 100%;
+    font-size: 24px;
+    color: @text-secondary-color;
+    position: relative;
+  }
+}

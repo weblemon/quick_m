@@ -1,0 +1,27 @@
+@import "../../variable.less";
+.house-search-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  .item {
+    font-size: 28px;
+    color: @text-color;
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    align-items: center;
+    padding: 10px 30px;
+    image {
+      width: 14px;
+      height: 10px;
+      margin-left: 10px;
+    }
+    &.active {
+      image {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../variable.less";
+image {
+  display: block;
+  margin: 0 auto;
+}
+
+.page {
+  .btn-group {
+    .flex(column);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    at-button {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  }
+
+  image {
+    width: 50%;
+  }
+
+  .registrationCode {
+    display: block;
+    text-align: center;
+    color: @text-color;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .desc {
+    display: block;
+    text-align: center;
+    color: @text-secondary-color;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,69 @@
+@import "../../../variable.less";
+.page {
+  .label {
+    .title {
+      padding-top: 140px;
+      color: @text-color;
+      font-size: 28px;
+      border-bottom: 1px solid @border-color;
+      line-height: 50px;
+    }
+    .desc {
+      color: @text-secondary-color;
+      font-size: 20px;
+      margin-bottom: 35px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-pic {
+    width: 144px;
+    height: 144px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  radio-group {
+    width: 448px;
+    margin-top: 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    label {
+      margin-right: 15px;
+      font-size: 28px;
+      color: @text-color;
+    }
+    radio {
+      margin-right: 100px;
+    }
+  }
+  input {
+    width: 448px;
+    font-size: 28px;
+    padding: 26px 0;
+    border-bottom: 1px solid @border-color;
+  }
+  .readme {
+    margin: 40px;
+    font-size: 28px;
+    color: @text-color;
+    text-decoration: underline;
+  }
+  button {
+    padding: 0;
+    margin-top: 54px;
+    width: 181px;
+    height: 66px;
+    font-size: 24px;
+    background-color: @primary;
+    color: #fff;
+  }
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+}

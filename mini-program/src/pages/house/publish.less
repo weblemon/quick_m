@@ -1,0 +1,71 @@
+@import "../../variable.less";
+
+:host {
+  background: #f7f7f7;
+}
+
+.page {
+  .cover-photo {
+    height: 350px;
+    background-color: rgb(197, 189, 152);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    .btn {
+      width: 205px;
+      height: 205px;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+      background: rgba(197, 189, 152, .8);
+      &:active {
+        background: rgba(255, 255, 255, .2);
+      }
+    }
+    .photo {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  .form {
+    .placeholder{
+      color: @text-secondary-color !important;
+      font-size: 28px;
+    }
+    .value {
+      font-size: 28px;
+      color: @text-color !important;
+    }
+    list {
+      margin: 20px 0;
+    }
+
+    .cover-view {
+      width: 100%;
+      bottom: 0;
+      z-index: 999;
+      position: fixed;
+      button {
+        width: 100%;
+        background: @primary;
+        border-radius: 0;
+        color: #fff;
+        &::after {
+          border: none;
+        }
+      }
+    }
+
+
+    display: block;
+    padding-bottom: 80px;
+  }
+}
+
+

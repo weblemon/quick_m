@@ -1,0 +1,70 @@
+@import "../../variable.less";
+.page {
+  padding-top: 80px;
+  .header {
+    .top {
+      display: flex;
+      flex-direction: row;
+      font-size: 28px;
+      padding: 0 20px;
+      color: @text-secondary-color;
+      align-items: center;
+      justify-content: space-between;
+      .title {
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text {
+          max-width: 400px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        image {
+          width: 14px;
+          height: 8px;
+          margin-left: 10px;
+        }
+      }
+      .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+    }
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: #fff;
+  }
+  .publish-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    background: #fff;
+    transition: all .1s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+    image {
+      width: 44px;
+      height: 44px;
+    }
+  }
+  button.publish-button {
+    bottom: 205px;
+    right: 45px;
+    &::after{
+      border: none;
+    }
+  }
+}
