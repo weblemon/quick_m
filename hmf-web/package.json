@@ -15,7 +15,7 @@
     "@types/redux-logger": "^3.0.7",
     "@types/validator": "^10.11.1",
     "antd": "3.19.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "date-diff": "^0.2.1",
     "echarts": "^4.2.1",
