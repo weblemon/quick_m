@@ -40,7 +40,7 @@
     "date-diff": "^0.2.1",
     "nerv-devtools": "^1.4.0",
     "nervjs": "^1.4.0",
-    "qs": "^6.7.0",
+    "qs": "^6.9.7",
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
